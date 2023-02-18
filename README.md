@@ -90,6 +90,7 @@ PS. Make sure file location of Scheduler_Function.py inside the file docker.dock
     "pushResult": true
 }
 ```
+- And, make sure the testing device now on
 
 
 ## 9. OVER-CHARGING PREVENTION MOBILE APPLICATION
