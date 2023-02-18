@@ -1,0 +1,4 @@
+flask
+pandas
+tuya-connector-python
+mysql.connector
