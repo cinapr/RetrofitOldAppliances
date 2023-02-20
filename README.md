@@ -52,13 +52,9 @@ Follow the instruction here :
 
 
 ## 7. SCHEDULER FOR SMART-GRID SMART APPLIANCES :
-Run the cron job to run the scheduler every 15 seconds :
-The docker will set cron job to check the SQL every 15 minutes and change the switch of the devices :
-```docker build -t <image_name>```
-
-```docker run -p <host_port>:<container_port> -e TZ=<timezone> --name <container_name> <image_name>```
-
-PS. Make sure file location of Scheduler_Function.py inside the file docker.dockerfile has been correct
+Run scheduler every minute 00, 15, 30, and 45 to run the */app/Scheduler_Function.py* .
+For windows : Use task scheduler
+For ubuntu linux : Use cron with time setting -> */15 * * * *
 
 
 
