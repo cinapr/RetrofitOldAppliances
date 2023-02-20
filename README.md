@@ -53,8 +53,10 @@ Follow the instruction here :
 
 ## 7. SCHEDULER FOR SMART-GRID SMART APPLIANCES :
 Run scheduler every minute 00, 15, 30, and 45 to run the */app/Scheduler_Function.py* .
+
 For windows : Use task scheduler
-For ubuntu linux : Use cron with time setting -> */15 * * * *
+
+For ubuntu linux : Use cron with time setting -> ``` */15 * * * * ```
 
 
 
