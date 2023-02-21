@@ -95,3 +95,14 @@ For ubuntu linux : Use cron with time setting -> ``` */15 * * * * ```
 Install the mobile application for over-charging prevention according to this :
 ```https://github.com/KorawitRupanya/```
 
+---
+
+# How to run with Docker?
+1. Use docker build command which it will use the Dockerfile to build a new container image(protocol is the of the image which you can specify to whatever you want)
+```
+docker build -t protocol .
+```
+2. Start your container using the docker run command and specify the name of the image you just created:
+```
+docker run -dp 3000:8001 protocol
+```
