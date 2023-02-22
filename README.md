@@ -98,11 +98,12 @@ Install the mobile application for over-charging prevention according to this :
 ---
 
 # How to run with Docker?
-1. Use docker build command which it will use the Dockerfile to build a new container image(protocol is the of the image which you can specify to whatever you want)
+1. Use docker build command which it will use the Dockerfile to build a new container image(protocol is the name of the image which you can specify to whatever you want)
 ```
 docker build -t protocol .
 ```
-2. Start your container using the docker run command and specify the name of the image you just created:
+2. Start your container using docker run command and specify the name of the image you just created:
 ```
 docker run -dp 3000:8001 protocol
 ```
+3. Now the API should run at [localhost:3000](localhost:3000). You can check by go directly to the port, if you see the massage ``{"message":"API Server of System is Ready"} `` that means the API is running and ready to be used.
