@@ -45,7 +45,7 @@ DATABASE = "IOT_Project"
 
 
 ## 6. WEB APPLICATION FOR REGISTERING USER, DEVICE, SCHEDULE :
-Make an webserver for the frontend to registering users, controlled devices, and the schedule.
+Make a web server for the frontend to registering users, controlled devices, and the schedule.
 Follow the instruction here :
 ```https://github.com/Bamistand/IOT_Frontend_Project.git```
 
@@ -93,9 +93,7 @@ For ubuntu linux : Use cron with time setting -> ``` */15 * * * * ```
 
 ## 9. OVER-CHARGING PREVENTION MOBILE APPLICATION
 Install the mobile application for over-charging prevention according to this :
-```https://github.com/KorawitRupanya/```
-
----
+```https://github.com/KorawitRupanya/BatteryCheckerFlutter```
 
 # How to run with Docker?
 1. Use docker build command which it will use the Dockerfile to build a new container image(protocol is the name of the image which you can specify to whatever you want)
