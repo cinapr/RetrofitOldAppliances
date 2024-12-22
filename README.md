@@ -20,6 +20,8 @@ Vampire energy accounts for 5–10% of residential electricity use and approxima
 - Backend: Python
 - Database: MySQL
 - Mobile Connectivity: Flutter
+- Hardware : Tuya Smart Plug
+- IOT Connection : Tuya SDK
 
 ## Documentation
 Full documentation can be access on these files inside this repo : `Presentation.pdf` and `Documentation.pdf`
